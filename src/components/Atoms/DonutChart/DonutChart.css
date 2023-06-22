@@ -1,0 +1,29 @@
+.donut-chart-container {
+  width: 200px;
+  height: 200px;
+}
+
+.donut-chart-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.donut-chart-fill {
+  fill: none;
+  stroke-width: 40;
+}
+
+.donut-chart-fill:first-child {
+  stroke: #ffc107; 
+}
+
+.donut-chart-fill:last-child {
+  stroke: blue; 
+}
+
+.donut-chart-text {
+  font-size: 24px;
+  font-weight: bold;
+  text-anchor: middle;
+  fill: #000;
+}

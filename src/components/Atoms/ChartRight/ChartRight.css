@@ -1,0 +1,129 @@
+.frame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .overlap-group-wrapper {
+  border: 1px none;
+  height: 94px;
+  overflow-x: hidden;
+  width: 229px;
+}
+
+.frame .overlap-group {
+  background-color: #202527;
+  height: 93px;
+  position: relative;
+  top: 1px;
+}
+
+.frame .text-wrapper {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3px;
+}
+
+.frame .overlap {
+  height: 14px;
+  left: 16px;
+  position: absolute;
+  top: 73px;
+  width: 191px;
+}
+
+.frame .text-wrapper-1 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 10px;
+  font-weight: 700;
+  left: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 6px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 10px;
+  font-weight: 700;
+  left: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 6px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 10px;
+  font-weight: 700;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 6px;
+  white-space: nowrap;
+}
+
+.frame .rectangle {
+  background-color: #6b7173;
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 191px;
+}
+
+.frame .rectangle-2 {
+  background-color: #dbf3ff;
+  height: 7px;
+  left: 136px;
+  position: absolute;
+  top: 66px;
+  width: 37px;
+}
+
+.frame .rectangle-3 {
+  background-color: #345394;
+  height: 12px;
+  left: 83px;
+  position: absolute;
+  top: 61px;
+  width: 37px;
+}
+
+.frame .rectangle-4 {
+  background-color: #345394;
+  height: 33px;
+  left: 30px;
+  position: absolute;
+  top: 40px;
+  width: 37px;
+}
+
+.frame .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  left: 187px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 18px;
+  width: 40px;
+}

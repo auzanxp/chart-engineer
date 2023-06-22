@@ -1,0 +1,9 @@
+.filter-bar {
+  background-color: #5a6774;
+  padding: 8px;
+  box-shadow: 0px 4px 8px #1f2429;
+}
+
+.filter-bar p {
+  margin: 0;
+}
