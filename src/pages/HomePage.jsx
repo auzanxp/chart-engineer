@@ -15,7 +15,7 @@ const HomePage = () => {
       }}
     >
       <div
-        className="d-flex gap-2 pt-2 container"
+        className="d-flex gap-2 pt-2 container mb-2"
         style={{ justifyContent: "space-between" }}
       >
         <div>

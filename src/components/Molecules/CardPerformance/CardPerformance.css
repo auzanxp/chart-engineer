@@ -1,0 +1,12 @@
+.card-performance__title {
+  background-color: black;
+  padding: 8px;
+}
+
+.card-performance__title p {
+  margin-bottom: 0px;
+}
+
+.card_bg {
+  background-color: #202527;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import "./DonutChart.css";
 
 const DonutChart = () => {
-  const percentage = 85; // Ubah persentase menjadi 15
+  const percentage = 85;
 
   const calculateStrokeDasharray = (percentage) => {
     const circumference = 2 * Math.PI * 80;
@@ -13,12 +13,12 @@ const DonutChart = () => {
 
   return (
     <div className="donut-chart-container">
-      <svg className="donut-chart-svg" width="200" height="200">
+      <svg className="donut-chart-svg">
         <circle
           className="donut-chart-fill"
-          cx="100"
-          cy="100"
-          r="80"
+          cx="50%"
+          cy="50%"
+          r="40%"
           strokeDasharray={calculateStrokeDasharray(percentage)}
           transform="rotate(-90 100 100)"
         />
