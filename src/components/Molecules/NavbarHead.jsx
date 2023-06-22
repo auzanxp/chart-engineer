@@ -10,7 +10,7 @@ const NavbarHead = () => {
         expand="lg"
         className="bg-body-tertiary"
         data-bs-theme="dark"
-        style={{ backgroundColor: "#000000 !importan" }}
+        style={{ backgroundColor: "#000000" }}
       >
         <Container>
           <Navbar.Brand href="#home">Managerial Dashboard V.1.0</Navbar.Brand>

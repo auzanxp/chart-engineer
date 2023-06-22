@@ -10,7 +10,7 @@ const NavbarStatus = () => {
       style={{ backgroundColor: "#3a444d" }}
     >
       <Container className="d-flex">
-        <Container className="d-flex gap-3">
+        <div className="d-flex gap-3">
           <Nav.Item>
             <Nav.Link as={Link} to={`/`}>
               Home
@@ -21,7 +21,7 @@ const NavbarStatus = () => {
               Budget
             </Nav.Link>
           </Nav.Item>
-        </Container>
+        </div>
         <Container
           className="d-flex"
           style={{ justifyContent: "flex-end", gap: "0.5em" }}

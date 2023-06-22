@@ -1,28 +1,41 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import FilterBar from "../components/Atoms/FilterBar/FilterBar";
+import { VolumeSection } from "../components/Molecules/VolumeSection/VolumeSection";
+import PerfomanceSection from "/src/components/Molecules/PerfomanceSection/PerfomanceSection";
+import LifeSection from "../components/Molecules/LeftSection/LifeSection";
 
 const HomePage = () => {
   return (
     <div
       style={{
         width: "100%",
-        height: "90vh",
+        height: "auto",
         backgroundColor: "#30373f",
         color: "white",
       }}
     >
-      <Container
-        className="d-flex gap-2 pt-2"
+      <div
+        className="d-flex gap-2 pt-2 container"
         style={{ justifyContent: "space-between" }}
       >
         <div>
-          <div>
-            <p>Dashboard</p>
-          </div>
+          <p>Dashboard</p>
         </div>
         <FilterBar />
-      </Container>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-3">
+            <VolumeSection />
+          </div>
+          <div className="col-6">
+            <PerfomanceSection />
+          </div>
+          <div className="col">
+            <LifeSection />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
