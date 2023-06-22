@@ -25,13 +25,13 @@ const HomePage = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-3">
+          <div className="col-lg-3">
             <VolumeSection />
           </div>
-          <div className="col-6">
+          <div className="col-lg-5">
             <PerfomanceSection />
           </div>
-          <div className="col">
+          <div className="col-lg-4">
             <LifeSection />
           </div>
         </div>

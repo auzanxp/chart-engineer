@@ -4,7 +4,9 @@ const PerfomanceSection = () => {
   return (
     <div className="conten-wrap">
       <div className="perfomance-title">Performace Summary</div>
-      <div>Conten</div>
+      <div>
+        <img src="/src/assets/images/petaHome.png" alt="peta" width={440} />
+      </div>
     </div>
   );
 };
