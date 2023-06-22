@@ -2,8 +2,8 @@ import "./PerfomanceSection.css";
 
 const PerfomanceSection = () => {
   return (
-    <div className="conten">
-      <div className="conten-title">Performace Summary</div>
+    <div className="conten-wrap">
+      <div className="perfomance-title">Performace Summary</div>
       <div>Conten</div>
     </div>
   );
