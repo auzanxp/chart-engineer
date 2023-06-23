@@ -1,3 +1,4 @@
+import { GearFill, PersonFill } from "react-bootstrap-icons";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -19,21 +20,21 @@ const NavbarHead = () => {
             className="justify-content-end"
           >
             <Nav>
-              <Nav.Link href="#home">Setting</Nav.Link>
+              <Nav.Link href="#" className="d-flex align-items-center gap-2">
+                <GearFill />
+                Setting
+              </Nav.Link>
               <NavDropdown title="Administrator" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
+                <NavDropdown.Item href="#">Action</NavDropdown.Item>
+                <NavDropdown.Item href="#">Another action</NavDropdown.Item>
+                <NavDropdown.Item href="#">Something</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
+                <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#link">My account</Nav.Link>
+              <Nav.Link href="#" className="d-flex align-items-center gap-2">
+                <PersonFill />
+                My account
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

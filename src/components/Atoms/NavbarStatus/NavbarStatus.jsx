@@ -12,12 +12,12 @@ const NavbarStatus = () => {
       <Container className="d-flex">
         <div className="d-flex gap-3">
           <Nav.Item>
-            <Nav.Link as={Link} to={`/`}>
+            <Nav.Link as={Link} to={`/`} className="text-light">
               Home
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link as={Link} to={`/bugdet`}>
+            <Nav.Link as={Link} to={`/bugdet`} className="text-light">
               Budget
             </Nav.Link>
           </Nav.Item>
@@ -27,7 +27,7 @@ const NavbarStatus = () => {
           style={{ justifyContent: "flex-end", gap: "0.5em" }}
         >
           <h2 style={{ color: "green", margin: "0" }}>&#8226;</h2>
-          <Nav.Link className="justify-content-end">
+          <Nav.Link className="justify-content-end text-light">
             John Doe (Manager)
           </Nav.Link>
         </Container>

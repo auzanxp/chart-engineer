@@ -13,6 +13,20 @@ const BudgetPage = () => {
     >
       <BudgetNav />
       <BudgetInfoBar />
+      <div className="container mt-2">
+        <div className="row">
+          <div className="col">
+            <img
+              src="/src/assets/images/petaBudget.png"
+              alt="peta"
+              width={"100%"}
+            />
+          </div>
+          <div className="col">
+        
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

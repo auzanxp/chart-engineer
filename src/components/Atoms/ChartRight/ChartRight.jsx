@@ -1,5 +1,6 @@
 import React from "react";
 import "./ChartRight.css";
+import { ChevronDoubleUp } from "react-bootstrap-icons";
 
 export const ChartRight = ({ title }) => {
   return (
@@ -16,7 +17,10 @@ export const ChartRight = ({ title }) => {
           <div className="rectangle-2" />
           <div className="rectangle-3" />
           <div className="rectangle-4" />
-          <div className="text-wrapper-4">+9,5%</div>
+          <div className="text-wrapper-4 text-end">
+            <ChevronDoubleUp size={20} />
+            +9,5%
+          </div>
         </div>
       </div>
     </div>
