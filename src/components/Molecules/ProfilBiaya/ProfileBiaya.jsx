@@ -23,7 +23,7 @@ const ProfileBiaya = () => {
                 <td>Company A</td>
                 <td>$5,08</td>
                 <td>$3,40</td>
-                <td className="horizontal-bar" colSpan="3">$5,48</td>
+                <td className="horizontal-bar">$5,48</td>
                 <td>$3,40</td>
                 <td>$1,53</td>
                 <td>Diagram</td>

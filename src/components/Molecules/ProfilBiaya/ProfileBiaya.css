@@ -12,6 +12,5 @@
 }
 
 .horizontal-bar {
-  height: 1%;
-  background-color: #fff;
+  background: linear-gradient(to right, red, white);
 }
