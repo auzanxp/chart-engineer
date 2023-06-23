@@ -20,7 +20,7 @@ const BudgetInfoBar = () => {
                 <div className="d-flex flex-column justify-content-center">
                   <CurrencyDollar size={24} />{" "}
                 </div>
-                <div>Juta</div>
+                <div className="mt-2">Juta</div>
               </div>
             </div>
           </div>
@@ -30,7 +30,7 @@ const BudgetInfoBar = () => {
                 <div>
                   <GraphUpArrow size={24} />{" "}
                 </div>
-                <div>RKAP 2022</div>
+                <div className="mt-2">RKAP 2022</div>
               </div>
               <div>$ 128.23</div>
             </div>
@@ -41,7 +41,7 @@ const BudgetInfoBar = () => {
                 <div>
                   <PieChartFill size={24} />{" "}
                 </div>
-                <div>Target YTD</div>
+                <div className="mt-2">Target YTD</div>
               </div>
               <div>$ 34.56</div>
             </div>
@@ -52,7 +52,7 @@ const BudgetInfoBar = () => {
                 <div>
                   <BarChartFill size={24} />{" "}
                 </div>
-                <div>Real YTD 2022</div>
+                <div className="mt-2">Real YTD 2022</div>
               </div>
               <div>$ 28.34</div>
             </div>
@@ -63,9 +63,9 @@ const BudgetInfoBar = () => {
                 <div>
                   <Clipboard2Data size={24} />{" "}
                 </div>
-                <div>% Real RKAP</div>
+                <div className="mt-2">% Real RKAP</div>
               </div>
-              <div>$ 20.50</div>
+              <div >$ 20.50</div>
             </div>
           </div>
           <div className="budget-info__card">
@@ -74,7 +74,7 @@ const BudgetInfoBar = () => {
                 <div>
                   <Briefcase size={24} />{" "}
                 </div>
-                <div>% Real</div>
+                <div className="mt-2">% Real</div>
               </div>
               <div>$ 82.01</div>
             </div>
@@ -86,7 +86,7 @@ const BudgetInfoBar = () => {
                 <div className="d-flex flex-column justify-content-center">
                   <CurrencyDollar size={24} />{" "}
                 </div>
-                <div>Juta</div>
+                <div className="mt-2">Juta</div>
               </div>
             </div>
           </div>

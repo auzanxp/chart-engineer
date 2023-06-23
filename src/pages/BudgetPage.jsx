@@ -1,5 +1,6 @@
 import BudgetNav from "../components/Atoms/BudgetNav/BudgetNav";
 import BudgetInfoBar from "../components/Molecules/BudgetInfoBar/BudgetInfoBar";
+import ProfileBiaya from "../components//Molecules/ProfilBiaya/ProfileBiaya";
 
 const BudgetPage = () => {
   return (
@@ -23,7 +24,7 @@ const BudgetPage = () => {
             />
           </div>
           <div className="col">
-        
+            <ProfileBiaya />
           </div>
         </div>
       </div>

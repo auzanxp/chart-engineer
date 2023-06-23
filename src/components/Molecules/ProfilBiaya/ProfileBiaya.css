@@ -1,0 +1,17 @@
+.profile__wrap {
+  background-color: #202527;
+}
+
+.profile__title {
+  background-color: black;
+  padding: 6px;
+}
+
+.table__profile {
+  font-size: small;
+}
+
+.horizontal-bar {
+  height: 1%;
+  background-color: #fff;
+}
