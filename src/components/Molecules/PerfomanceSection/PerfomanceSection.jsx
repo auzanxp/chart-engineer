@@ -7,11 +7,7 @@ const PerfomanceSection = () => {
       <div className="conten-wrap">
         <div className="perfomance-title">Performace Summary</div>
         <div>
-          <img
-            src="/src/assets/images/petaHome.png"
-            alt="peta"
-            width={"100%"}
-          />
+          <img src="/petaHome.png" alt="peta" width={"100%"} />
         </div>
       </div>
       <CardPerformance />
