@@ -8,9 +8,8 @@ const NavbarHead = () => {
     <>
       <Navbar
         expand="lg"
-        className="bg-body-tertiary"
         data-bs-theme="dark"
-        style={{ backgroundColor: "#000000" }}
+        style={{ backgroundColor: "rgb(0,0,0)" }}
       >
         <Container>
           <Navbar.Brand href="#home">Managerial Dashboard V.1.0</Navbar.Brand>

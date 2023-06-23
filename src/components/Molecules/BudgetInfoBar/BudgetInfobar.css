@@ -1,0 +1,9 @@
+.budget-info__card {
+  width: 150px;
+  height: 75px;
+  background-color: #202527;
+  padding: 8px;
+  margin-top: 8px;
+  margin-right: 8px;
+  font-size: 12px;
+}

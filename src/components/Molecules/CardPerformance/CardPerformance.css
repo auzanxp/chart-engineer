@@ -10,3 +10,12 @@
 .card-performance__donut-chart {
   background-color: #202527;
 }
+
+.card-performance__current-target-text {
+  font-size: 12px;
+}
+
+.card-performance__target-text {
+  font-size: 10px;
+  color: #026184;
+}

@@ -1,0 +1,7 @@
+.carousel .slide {
+  margin: 0 8px;
+}
+
+.carousel .slide:last-child {
+  margin-right: 0;
+}

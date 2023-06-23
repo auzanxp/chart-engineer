@@ -1,6 +1,64 @@
 .life-section {
   background-color: #202527;
-  height: auto;
-  padding-bottom: 50px;
 }
 
+.life-section__title-info {
+  text-align: end;
+}
+
+.life-section__number-info {
+  text-align: end;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.life-section__number-info span {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.maintenance__title {
+  background-color: black;
+  padding: 6px;
+}
+
+.maintenance__title p {
+  margin: 0;
+}
+
+.maintenance__card {
+  background-color: white;
+  color: black;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.maintenance__card-company {
+  font-size: 12px;
+  margin-left: 12px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.maintenance__card-company p {
+  margin-bottom: 0;
+}
+
+.maintenance__card-latest {
+  font-size: 12px;
+  margin-left: 12px;
+  margin-bottom: 4px;
+}
+
+.maintenance__card-latest p {
+  margin-bottom: 0;
+}
+
+.maintenance__card-status {
+  font-size: 12px;
+  margin-left: 12px;
+  margin-bottom: 4px;
+}
+
+.maintenance__card-status p {
+  margin-bottom: 0;
+}

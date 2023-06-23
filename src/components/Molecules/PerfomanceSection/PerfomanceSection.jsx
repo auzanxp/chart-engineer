@@ -4,7 +4,7 @@ import "./PerfomanceSection.css";
 const PerfomanceSection = () => {
   return (
     <div>
-      <div className="conten-wrap mt-2">
+      <div className="conten-wrap">
         <div className="perfomance-title">Performace Summary</div>
         <div>
           <img

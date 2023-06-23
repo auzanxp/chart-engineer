@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import NavbarHead from "./components/Molecules/NavbarHead";
 import NavbarStatus from "./components/Atoms/NavbarStatus/NavbarStatus";
 import HomePage from "./pages/HomePage";
+import BudgetPage from "./pages/BudgetPage";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
             <>
               <NavbarHead />
               <NavbarStatus />
+              <BudgetPage />
             </>
           }
         />
